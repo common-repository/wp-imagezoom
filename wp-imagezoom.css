@@ -1,0 +1,112 @@
+html {
+	overflow:hidden;
+}
+
+body {
+    background-color: #000;
+}
+
+#outframe {
+    /*position: relative;*/
+    /*border: 3px solid #ff0;*/
+    width: 100px;
+    height:100px;
+    /*background-color: #000;*/
+    overflow: hidden;
+	/*float:left;*/
+
+
+}
+
+
+#dtxt {
+    display:none;
+    background-color: #ff9;
+    width: 60px;
+    height: 30px;
+	position:absolute;top:0;left:0;
+}
+
+#float_win_outer {
+	position: absolute;
+	top: 6px;
+	left: 41px;
+	border: 2px solid #333;
+	background-color: #888;
+	width: 100px;
+	height: 50px;
+	z-index: 2000;
+}
+
+#float_win {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	border: 1px solid #111;
+	width: 100px;
+	height: 50px;
+	z-index: 2001;
+}
+
+#float_box_border {
+	position: relative;
+	top: 8px;
+	left: 2px;
+	border: 1px solid #f00;
+	width: 100px;
+	height: 50px;
+	z-index: 2003;
+}
+
+#float_box {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #f00;
+	width: 100px;
+	height: 50px;
+	z-index: 2002;
+}
+
+
+#debug_win {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	border: 2px solid #111;
+	background-color: #ddd;
+	width: 200px;
+	height: 200px;
+	z-index: 2000;
+}
+
+#wiz-buttons {
+	width:29px;
+	height:120px;
+	/*float:left;*/
+	/*border:1px solid #f00;*/
+	position:absolute;
+	z-index:1004;
+}
+.wiz-buttons-spacer {
+	width:29px;
+	height:4px;
+}
+
+#wiz-buttons-spacer-2 {
+	width:30px;
+	height:10px;
+}
+
+.inframe {
+/*border: 2px solid #1ff;*/
+}
+
+#outframe {z-index: 108;}
+#inframe0 {z-index: 107;}
+#inframe1 {z-index: 106;}
+#inframe2 {z-index: 105;}
+#inframe3 {z-index: 104;}
+#inframe4 {z-index: 103;}
+#inframe5 {z-index: 102;}
+#inframe6 {z-index: 101;}
